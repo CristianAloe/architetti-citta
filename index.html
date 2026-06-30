@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🏗️ Noi Architetti della Città</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER / HERO ========== -->
+  <header class="hero" id="home">
+    <div class="hero__minecraft-bg" aria-hidden="true">
+      <!-- Blocchi decorativi Minecraft -->
+      <div class="mc-block mc-block--grass" style="--x:5%;--y:70%;--size:48px;--delay:0s"></div>
+      <div class="mc-block mc-block--stone" style="--x:12%;--y:60%;--size:40px;--delay:.3s"></div>
+      <div class="mc-block mc-block--grass" style="--x:20%;--y:72%;--size:56px;--delay:.6s"></div>
+      <div class="mc-block mc-block--wood"  style="--x:30%;--y:65%;--size:44px;--delay:.1s"></div>
+      <div class="mc-block mc-block--stone" style="--x:40%;--y:68%;--size:52px;--delay:.4s"></div>
+      <div class="mc-block mc-block--glass" style="--x:50%;--y:55%;--size:64px;--delay:.2s"></div>
+      <div class="mc-block mc-block--grass" style="--x:60%;--y:70%;--size:48px;--delay:.5s"></div>
+      <div class="mc-block mc-block--wood"  style="--x:70%;--y:62%;--size:40px;--delay:.7s"></div>
+      <div class="mc-block mc-block--glass" style="--x:78%;--y:58%;--size:60px;--delay:.3s"></div>
+      <div class="mc-block mc-block--stone" style="--x:87%;--y:66%;--size:44px;--delay:.8s"></div>
+      <div class="mc-block mc-block--grass" style="--x:93%;--y:72%;--size:48px;--delay:.1s"></div>
+      <!-- Grattacieli pixel-art -->
+      <div class="mc-tower" style="--x:15%;--h:220px;--w:38px;--c:#2d5f8e;--delay:.2s"></div>
+      <div class="mc-tower" style="--x:25%;--h:160px;--w:30px;--c:#3a7a3a;--delay:.4s"></div>
+      <div class="mc-tower" style="--x:45%;--h:300px;--w:50px;--c:#1e4d7a;--delay:.0s"></div>
+      <div class="mc-tower" style="--x:55%;--h:200px;--w:36px;--c:#2a6e2a;--delay:.6s"></div>
+      <div class="mc-tower" style="--x:72%;--h:260px;--w:44px;--c:#24527a;--delay:.3s"></div>
+      <div class="mc-tower" style="--x:85%;--h:140px;--w:28px;--c:#3a7a3a;--delay:.5s"></div>
+    </div>
+
+    <nav class="nav">
+      <div class="nav__logo">🏗️ Noi Architetti</div>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#progetto">Il Progetto</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#galleria">Galleria</a></li>
+        <li><a href="#docente">Docente</a></li>
+        <li><a href="#corsi">Corsi</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero__content">
+      <div class="hero__badge">Progetto Scolastico 2026</div>
+      <h1 class="hero__title">🏗️ NOI ARCHITETTI<br><span>DELLA CITTÀ</span></h1>
+      <p class="hero__subtitle">Benvenuti nella città costruita<br>dai nostri piccoli architetti!</p>
+      <div class="hero__actions">
+        <a href="#video" class="btn btn--primary">🎬 Guarda i video</a>
+        <a href="#progetto" class="btn btn--ghost">Scopri il progetto</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>Scorri</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== SEZIONE 1 – IL PROGETTO ========== -->
+    <section class="section section--light" id="progetto">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Il laboratorio</span>
+          <h2 class="section-title">Cosa abbiamo imparato</h2>
+          <p class="section-desc">Durante questo laboratorio gli studenti hanno trasformato Minecraft in una vera palestra di competenze del futuro.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card" data-aos>
+            <div class="skill-card__icon">🤝</div>
+            <h3>Collaborare</h3>
+            <p>Lavorare in squadra per raggiungere un obiettivo comune, ascoltandosi e rispettando le idee di tutti.</p>
+          </div>
+          <div class="skill-card" data-aos>
+            <div class="skill-card__icon">🏗️</div>
+            <h3>Progettare</h3>
+            <p>Pensare prima di costruire: pianificare gli spazi, i materiali e i dettagli di ogni edificio della città.</p>
+          </div>
+          <div class="skill-card" data-aos>
+            <div class="skill-card__icon">💡</div>
+            <h3>Risolvere problemi</h3>
+            <p>Trovare soluzioni creative quando qualcosa non funziona, trasformando gli ostacoli in opportunità.</p>
+          </div>
+          <div class="skill-card" data-aos>
+            <div class="skill-card__icon">🌍</div>
+            <h3>Lavorare in gruppo</h3>
+            <p>Capire che il risultato di un team è sempre più grande della somma dei singoli contributi.</p>
+          </div>
+          <div class="skill-card" data-aos>
+            <div class="skill-card__icon">🎮</div>
+            <h3>Minecraft Educativo</h3>
+            <p>Usare il gioco preferito come strumento serio: architettura, matematica e creatività in un'unica piattaforma.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEZIONE 2 – VIDEO ========== -->
+    <section class="section section--dark" id="video">
+      <div class="container">
+        <div class="section-header section-header--light">
+          <span class="section-eyebrow">I protagonisti</span>
+          <h2 class="section-title">🎥 I video dei gruppi</h2>
+          <p class="section-desc">Ogni gruppo ha presentato la propria città. Guarda il lavoro dei nostri piccoli architetti!</p>
+        </div>
+        <div class="video-grid">
+
+          <!-- GRUPPO 1 – sostituisci VIDEO_GRUPPO_1 con l'URL reale -->
+          <div class="video-card" data-aos>
+            <div class="video-card__thumb">
+              <div class="video-card__play" aria-hidden="true">▶</div>
+              <div class="video-card__overlay">
+                <span class="video-card__group-tag">Gruppo 1</span>
+              </div>
+            </div>
+            <div class="video-card__body">
+              <h3 class="video-card__title">🏠 Gli Architetti Stellari</h3>
+              <p class="video-card__desc">Una città futuristica con grattacieli di vetro, parchi galleggianti e strade illuminate di neon.</p>
+              <a href="VIDEO_GRUPPO_1" target="_blank" rel="noopener" class="btn btn--primary btn--sm">▶ Guarda il video</a>
+            </div>
+          </div>
+
+          <!-- GRUPPO 2 – sostituisci VIDEO_GRUPPO_2 con l'URL reale -->
+          <div class="video-card" data-aos>
+            <div class="video-card__thumb video-card__thumb--2">
+              <div class="video-card__play" aria-hidden="true">▶</div>
+              <div class="video-card__overlay">
+                <span class="video-card__group-tag">Gruppo 2</span>
+              </div>
+            </div>
+            <div class="video-card__body">
+              <h3 class="video-card__title">🌿 I Costruttori Verdi</h3>
+              <p class="video-card__desc">Una città ecosostenibile con tetti a giardino, pale eoliche e canali d'acqua naturali.</p>
+              <a href="VIDEO_GRUPPO_2" target="_blank" rel="noopener" class="btn btn--primary btn--sm">▶ Guarda il video</a>
+            </div>
+          </div>
+
+          <!-- GRUPPO 3 – sostituisci VIDEO_GRUPPO_3 con l'URL reale -->
+          <div class="video-card" data-aos>
+            <div class="video-card__thumb video-card__thumb--3">
+              <div class="video-card__play" aria-hidden="true">▶</div>
+              <div class="video-card__overlay">
+                <span class="video-card__group-tag">Gruppo 3</span>
+              </div>
+            </div>
+            <div class="video-card__body">
+              <h3 class="video-card__title">⚡ I Pixel Warriors</h3>
+              <p class="video-card__desc">Una metropoli d'azione con arene sportive, stadi e quartieri dedicati alle arti.</p>
+              <a href="VIDEO_GRUPPO_3" target="_blank" rel="noopener" class="btn btn--primary btn--sm">▶ Guarda il video</a>
+            </div>
+          </div>
+
+          <!-- GRUPPO 4 – sostituisci VIDEO_GRUPPO_4 con l'URL reale -->
+          <div class="video-card" data-aos>
+            <div class="video-card__thumb video-card__thumb--4">
+              <div class="video-card__play" aria-hidden="true">▶</div>
+              <div class="video-card__overlay">
+                <span class="video-card__group-tag">Gruppo 4</span>
+              </div>
+            </div>
+            <div class="video-card__body">
+              <h3 class="video-card__title">🏰 I Maestri della Pietra</h3>
+              <p class="video-card__desc">Una città medievale rivisitata con castelli imponenti, ponti levatoi e mercati storici.</p>
+              <a href="VIDEO_GRUPPO_4" target="_blank" rel="noopener" class="btn btn--primary btn--sm">▶ Guarda il video</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEZIONE 3 – GALLERIA ========== -->
+    <section class="section section--light" id="galleria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">I momenti</span>
+          <h2 class="section-title">📸 Galleria</h2>
+          <p class="section-desc">Scatta dopo scatto, il laboratorio prende vita. Clicca su un'immagine per ingrandirla.</p>
+        </div>
+        <div class="gallery-grid">
+          <!-- Sostituisci i src con le foto reali -->
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/1a3a5c/ffffff?text=📸+Foto+1" data-caption="Il team al lavoro - Sessione 1" aria-label="Apri foto 1">
+            <img src="https://placehold.co/400x300/1a3a5c/ffffff?text=📸+Foto+1" alt="Foto laboratorio 1" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/1e7a3e/ffffff?text=📸+Foto+2" data-caption="Costruzione del centro città" aria-label="Apri foto 2">
+            <img src="https://placehold.co/400x300/1e7a3e/ffffff?text=📸+Foto+2" alt="Foto laboratorio 2" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/2a4f7a/ffffff?text=📸+Foto+3" data-caption="Il gruppo 1 presenta il progetto" aria-label="Apri foto 3">
+            <img src="https://placehold.co/400x300/2a4f7a/ffffff?text=📸+Foto+3" alt="Foto laboratorio 3" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/3a6e3a/ffffff?text=📸+Foto+4" data-caption="Momento di pianificazione" aria-label="Apri foto 4">
+            <img src="https://placehold.co/400x300/3a6e3a/ffffff?text=📸+Foto+4" alt="Foto laboratorio 4" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/1a3a5c/ffffff?text=📸+Foto+5" data-caption="I piccoli architetti in azione" aria-label="Apri foto 5">
+            <img src="https://placehold.co/400x300/1a3a5c/ffffff?text=📸+Foto+5" alt="Foto laboratorio 5" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/1e5e8a/ffffff?text=📸+Foto+6" data-caption="Collaborazione tra gruppi" aria-label="Apri foto 6">
+            <img src="https://placehold.co/400x300/1e5e8a/ffffff?text=📸+Foto+6" alt="Foto laboratorio 6" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/245e24/ffffff?text=📸+Foto+7" data-caption="La città verde prende forma" aria-label="Apri foto 7">
+            <img src="https://placehold.co/400x300/245e24/ffffff?text=📸+Foto+7" alt="Foto laboratorio 7" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/1a3a5c/ffffff?text=📸+Foto+8" data-caption="Premiazione finale" aria-label="Apri foto 8">
+            <img src="https://placehold.co/400x300/1a3a5c/ffffff?text=📸+Foto+8" alt="Foto laboratorio 8" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/2e6e2e/ffffff?text=📸+Foto+9" data-caption="Il gruppo 4 presenta la città medievale" aria-label="Apri foto 9">
+            <img src="https://placehold.co/400x300/2e6e2e/ffffff?text=📸+Foto+9" alt="Foto laboratorio 9" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/1e4d7a/ffffff?text=📸+Foto+10" data-caption="Momenti di gioia e scoperta" aria-label="Apri foto 10">
+            <img src="https://placehold.co/400x300/1e4d7a/ffffff?text=📸+Foto+10" alt="Foto laboratorio 10" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/1a5a1a/ffffff?text=📸+Foto+11" data-caption="Vista aerea della città costruita" aria-label="Apri foto 11">
+            <img src="https://placehold.co/400x300/1a5a1a/ffffff?text=📸+Foto+11" alt="Foto laboratorio 11" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+          <button class="gallery-item" data-aos data-src="https://placehold.co/800x600/243f6e/ffffff?text=📸+Foto+12" data-caption="La foto di classe del progetto" aria-label="Apri foto 12">
+            <img src="https://placehold.co/400x300/243f6e/ffffff?text=📸+Foto+12" alt="Foto laboratorio 12" loading="lazy" />
+            <div class="gallery-item__overlay"><span>🔍</span></div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEZIONE 4 – IL DOCENTE ========== -->
+    <section class="section section--accent" id="docente">
+      <div class="container">
+        <div class="teacher-layout">
+          <div class="teacher-photo" data-aos>
+            <!-- Sostituisci con la tua foto reale -->
+            <div class="teacher-photo__frame">
+              <img src="https://placehold.co/320x320/1a3a5c/ffffff?text=📷+Foto+Docente" alt="Foto di Cris Alo" />
+            </div>
+            <div class="teacher-photo__badge">👨‍💻 Coding Teacher</div>
+          </div>
+          <div class="teacher-bio" data-aos>
+            <span class="section-eyebrow">Chi sono</span>
+            <h2 class="section-title">👨‍💻 Il docente</h2>
+            <div class="teacher-bio__text">
+              <p>Ciao! Sono <strong>Cris Alo</strong>.</p>
+              <p>Mi occupo di <strong>coding e laboratori digitali</strong> per bambini e ragazzi. Il mio obiettivo è far imparare divertendosi.</p>
+              <p>Credo che ogni bambino abbia il potenziale per diventare un creatore del mondo digitale: non solo un consumatore, ma un <em>architetto</em> del futuro.</p>
+            </div>
+            <div class="teacher-tags">
+              <span class="tag">🎮 Minecraft Edu</span>
+              <span class="tag">🧩 Scratch</span>
+              <span class="tag">🐍 Python</span>
+              <span class="tag">🤖 AI for Kids</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEZIONE 5 – CORSI ========== -->
+    <section class="section section--light" id="corsi">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Continua il viaggio</span>
+          <h2 class="section-title">🚀 Nel mondo del coding</h2>
+          <p class="section-desc">Il progetto è finito, ma l'avventura continua. Scopri tutti i percorsi disponibili.</p>
+        </div>
+        <div class="courses-grid">
+
+          <div class="course-card" data-aos>
+            <div class="course-card__icon course-card__icon--green">🎮</div>
+            <div class="course-card__level">Livello base</div>
+            <h3 class="course-card__title">Minecraft Creativo</h3>
+            <p class="course-card__desc">Costruiamo, collaboriamo e impariamo insieme. L'architettura digitale come punto di partenza per il pensiero computazionale.</p>
+            <ul class="course-card__list">
+              <li>✅ Costruzione collaborativa</li>
+              <li>✅ Logica e pianificazione</li>
+              <li>✅ Creatività digitale</li>
+            </ul>
+            <a href="#" class="btn btn--outline">Scopri di più</a>
+          </div>
+
+          <div class="course-card" data-aos>
+            <div class="course-card__icon course-card__icon--blue">🧩</div>
+            <div class="course-card__level">Livello base</div>
+            <h3 class="course-card__title">Scratch</h3>
+            <p class="course-card__desc">Programmazione a blocchi per creare videogiochi e animazioni senza scrivere una riga di codice.</p>
+            <ul class="course-card__list">
+              <li>✅ Programmazione a blocchi</li>
+              <li>✅ Creazione di videogiochi</li>
+              <li>✅ Animazioni e storie</li>
+            </ul>
+            <a href="#" class="btn btn--outline">Scopri di più</a>
+          </div>
+
+          <div class="course-card" data-aos>
+            <div class="course-card__icon course-card__icon--teal">🐍</div>
+            <div class="course-card__level">Livello intermedio</div>
+            <h3 class="course-card__title">Python Base</h3>
+            <p class="course-card__desc">Primi passi nel vero codice. Creiamo videogiochi divertenti con Pygame e scopriamo la logica della programmazione.</p>
+            <ul class="course-card__list">
+              <li>✅ Primi videogiochi con Pygame</li>
+              <li>✅ Variabili e logica</li>
+              <li>✅ Programmazione divertente</li>
+            </ul>
+            <a href="#" class="btn btn--outline">Scopri di più</a>
+          </div>
+
+          <div class="course-card course-card--featured" data-aos>
+            <div class="course-card__badge">🔥 Avanzato</div>
+            <div class="course-card__icon course-card__icon--gold">🤖</div>
+            <div class="course-card__level">Livello avanzato</div>
+            <h3 class="course-card__title">Python Avanzato</h3>
+            <p class="course-card__desc">Per chi vuole spingersi oltre: sviluppo web, bot per Discord e i primi passi nell'Intelligenza Artificiale.</p>
+            <ul class="course-card__list">
+              <li>✅ Web Development</li>
+              <li>✅ Discord Bot</li>
+              <li>✅ Intelligenza Artificiale</li>
+            </ul>
+            <a href="#" class="btn btn--primary">Scopri di più</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SEZIONE 6 – CONTATTI ========== -->
+    <section class="section section--dark" id="contatti">
+      <div class="container">
+        <div class="section-header section-header--light">
+          <span class="section-eyebrow">Parliamo</span>
+          <h2 class="section-title">📩 Contatti</h2>
+          <p class="section-desc">Vuoi iscrivere tuo figlio? Hai domande sui corsi? Scrivimi, rispondo sempre!</p>
+        </div>
+        <div class="contacts-grid">
+
+          <!-- Sostituisci i link placeholder con quelli reali -->
+          <a href="mailto:EMAIL_PLACEHOLDER" class="contact-card" data-aos>
+            <div class="contact-card__icon">📧</div>
+            <h3>Email</h3>
+            <p>email@esempio.com</p>
+          </a>
+
+          <a href="https://wa.me/NUMERO_WHATSAPP" target="_blank" rel="noopener" class="contact-card" data-aos>
+            <div class="contact-card__icon">💬</div>
+            <h3>WhatsApp</h3>
+            <p>Scrivimi su WhatsApp</p>
+          </a>
+
+          <a href="https://instagram.com/PROFILO_INSTAGRAM" target="_blank" rel="noopener" class="contact-card" data-aos>
+            <div class="contact-card__icon">📸</div>
+            <h3>Instagram</h3>
+            <p>@profilo_instagram</p>
+          </a>
+
+          <a href="https://facebook.com/PROFILO_FACEBOOK" target="_blank" rel="noopener" class="contact-card" data-aos>
+            <div class="contact-card__icon">👥</div>
+            <h3>Facebook</h3>
+            <p>Pagina Facebook</p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">🏗️ Noi Architetti della Città</div>
+      <p class="footer__copy">© 2025 Cris Alo — Creato con ❤️ per i piccoli architetti.</p>
+      <p class="footer__sub">Coding &amp; Laboratori Digitali per Bambini e Ragazzi</p>
+    </div>
+  </footer>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizzatore immagini">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Chiudi">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Immagine precedente">‹</button>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Immagine successiva">›</button>
+    <div class="lightbox__inner">
+      <img src="" alt="" id="lightboxImg" />
+      <p class="lightbox__caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
